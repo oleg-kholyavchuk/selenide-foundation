@@ -1,3 +1,5 @@
+package objectpage;
+
 import com.codeborne.selenide.Selenide;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import com.codeborne.selenide.Configuration;
@@ -12,6 +14,7 @@ public class BasePage {
         Configuration.driverManagerEnabled = true;
         Configuration.browserSize = "1920x1080";
         Configuration.headless = false;
+        Configuration.startMaximized=true;
     }
 
     @BeforeEach
