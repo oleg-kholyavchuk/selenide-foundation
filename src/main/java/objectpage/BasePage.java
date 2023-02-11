@@ -1,3 +1,5 @@
+package objectpage;
+
 import com.codeborne.selenide.Selenide;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import com.codeborne.selenide.Configuration;
